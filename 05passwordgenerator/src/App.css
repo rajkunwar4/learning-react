@@ -1,0 +1,20 @@
+/* 
+
+
+const passwordGenerator= useCallback(()=>{
+    let pass="";
+    let str="";
+    str="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    if(number) str+="0123456789"
+    if(char) str+="`@!$%^&~"
+
+    for(let i=0;i<length;i++){
+      let val=Math.floor(Math.random()*(str.length-1));
+      pass+=str[val];
+    }  
+    setPassword(pass);
+  },[length,number,char])
+
+
+  
+ */
